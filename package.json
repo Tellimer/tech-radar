@@ -1,6 +1,6 @@
 {
-  "name": "zalando-tech-radar",
-  "version": "2018.5.0",
+  "name": "tellimer-tech-radar",
+  "version": "2021.5.16",
   "description": "Visualizing our technology choices",
   "homepage": "https://github.com/zalando/tech-radar#readme",
   "repository": "https://github.com/zalando/tech-radar.git",
@@ -9,14 +9,12 @@
     "doc": "docs"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "eslint": "^5.7.0",
-    "htmllint": "^0.7.2"
+    "browser-sync": "2.26.14",
+    "eslint": "5.16.0"
   },
   "scripts": {
     "start": "browser-sync docs -w",
-    "lint": "npm run lint:js && npm run lint:html",
-    "lint:js": "eslint docs/*.js",
-    "lint:html": "htmllint docs/*.html"
+    "lint": "npm run lint:js",
+    "lint:js": "eslint docs/*.js"
   }
 }
