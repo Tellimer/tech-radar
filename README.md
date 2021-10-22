@@ -15,7 +15,7 @@ Feel free to use and adapt it for your own purposes.
 
 ```html
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="http://zalando.github.io/tech-radar/release/radar-0.5.js"></script>
+<script src="https://tellimer.github.io/tech-radar/radar.js"></script>
 ```
 
 2. insert an empty `svg` tag:
@@ -67,7 +67,7 @@ radar_visualization({
 Entries are positioned automatically so that they don't overlap.
 
 As a working example, you can check out `docs/index.html` &mdash; the source of our [public Tech
-Radar](http://zalando.github.io/tech-radar/).
+Radar](https://tellimer.github.io/tech-radar/).
 
 ## Local Development
 

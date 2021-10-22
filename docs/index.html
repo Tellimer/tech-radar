@@ -2,8 +2,8 @@
 
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<title>Zalando Tech Radar</title>
-<link rel="shortcut icon" href="https://www.zalando.de/favicon.ico">
+<title>Tellimer Tech Radar</title>
+<link rel="shortcut icon" href="https://cdn.tellimer.com/logos/insights/favicon.ico">
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="radar.js"></script>
@@ -25,7 +25,7 @@ radar_visualization({
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "Tellimer Tech Radar — 2021.05",
+  title: "Tellimer Tech Radar — 2021.10",
   quadrants: [
     { name: "Languages" },
     { name: "Infrastructure" },
@@ -52,7 +52,7 @@ radar_visualization({
       },
       {
         quadrant: 2,
-        ring: 2,
+        ring: 0,
         label: "CI",
         active: false,
         link: "../frameworks/ci.html",
@@ -60,7 +60,7 @@ radar_visualization({
       },
       {
         quadrant: 2,
-        ring: 2,
+        ring: 0,
         label: "CD",
         active: false,
         link: "../frameworks/cd.html",
@@ -108,7 +108,7 @@ radar_visualization({
       },
       {
         quadrant: 3,
-        ring: 1,
+        ring: 0,
         label: "AWS DynamoDB",
         active: false,
         link: "../datastores/aws_dynamodb.html",
@@ -124,7 +124,7 @@ radar_visualization({
       },
       {
         quadrant: 3,
-        ring: 1,
+        ring: 2,
         label: "Cockroackdb",
         active: false,
         link: "../datastores/cockroackdb.html",
@@ -132,12 +132,20 @@ radar_visualization({
       },
       {
         quadrant: 3,
-        ring: 1,
+        ring: 0,
         label: "Amazon EventBridge",
         active: false,
         link: "../datastores/event_bridge.html",
         moved: 0
       },
+    {
+      quadrant: 3,
+      ring: 0,
+      label: "Amazon OpenSearch",
+      active: false,
+      link: "../datastores/open_search.html",
+      moved: 0
+    },
       {
         quadrant: 0,
         ring: 0,
@@ -148,7 +156,7 @@ radar_visualization({
       },
       {
         quadrant: 2,
-        ring: 1,
+        ring: 0,
         label: "ReactJS",
         active: false,
         link: "../frameworks/reactjs.html",
@@ -196,7 +204,7 @@ radar_visualization({
       },
       {
         quadrant: 1,
-        ring: 2,
+        ring: 0,
         label: "Pulumi",
         active: false,
         link: "../infrastructure/pulumi.html",
@@ -204,7 +212,7 @@ radar_visualization({
       },
       {
         quadrant: 1,
-        ring: 2,
+        ring: 3,
         label: "Tilt.dev",
         active: false,
         link: "../infrastructure/tilt_dev.html",
@@ -218,6 +226,14 @@ radar_visualization({
         link: "../infrastructure/sops.html",
         moved: 0
       },
+    {
+      quadrant: 1,
+      ring: 0,
+      label: "Vercel",
+      active: false,
+      link: "../infrastructure/vercel.html",
+      moved: 0
+    },
       {
         quadrant: 1,
         ring: 3,
@@ -252,7 +268,15 @@ radar_visualization({
       },
       {
         quadrant: 2,
-        ring: 1,
+        ring: 0,
+        label: "WebinyJs",
+        active: false,
+        link: "../infrastructure/webiny_js.html",
+        moved: 0
+      },
+      {
+        quadrant: 2,
+        ring: 0,
         label: "Next.Js",
         active: false,
         link: "../infrastructure/next_js.html",
